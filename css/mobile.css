@@ -1,0 +1,41 @@
+@media screen and (max-width: 576px) {
+  .banner {
+    max-width: 100%;
+  }
+  body {
+    width: 100%;
+  }
+  .item {
+    display: inline-block;
+  }
+  nav {
+    /* display: block; */
+    flex-direction: column;
+    height: auto;
+    align-items: start;
+  }
+  nav div {
+    padding: 10px;
+  }
+
+  .section1 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .section2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-right: 400px;
+    width: 100%;
+  }
+  #project .sec-content1 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .certi {
+    display: grid;
+    grid-template-columns: 1fr;
+
+    font-size: 40px;
+  }
+}
